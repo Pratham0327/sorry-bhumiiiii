@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I'm Sorry Bhumiiiii 💔</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background: linear-gradient(135deg, #fbecec, #fff);
+  color: #3a2c2c;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.95);
+  padding: 35px 25px;
+  border-radius: 22px;
+  max-width: 430px;
+  text-align: center;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.12);
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  color: #c94b6c;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #7a4b4b;
+  margin-bottom: 25px;
+}
+
+.letter {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.letter span {
+  font-weight: 600;
+}
+
+.footer {
+  margin-top: 25px;
+  font-size: 0.9rem;
+  color: #7a5c5c;
+}
+
+/* Popup */
+.popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.popup-box {
+  background: white;
+  padding: 30px 25px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 320px;
+  animation: pop 0.5s ease;
+}
+
+.popup-box h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.3rem;
+  color: #c94b6c;
+}
+
+.popup-box p {
+  margin: 15px 0 25px;
+}
+
+.popup-box button {
+  background: #c94b6c;
+  color: white;
+  border: none;
+  padding: 10px 26px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@keyframes pop {
+  from { transform: scale(0.7); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="popup" id="popup">
+  <div class="popup-box">
+    <h2>Bhumiiiii 💗</h2>
+    <p>Please read this…<br>I really mean it.</p>
+    <button onclick="closePopup()">Open</button>
+  </div>
+</div>
+
+<div class="container">
+  <div class="card">
+    <h1>I'm Sorry</h1>
+    <div class="subtitle">From the bottom of my heart</div>
+
+    <div class="letter">
+      <p>Dear <span>Bhumiiiii</span>,</p>
+
+      <p>
+        I know I misbehaved. I know I spoke without listening to you,
+        and that hurt you. For that, I am truly sorry.
+      </p>
+
+      <p>
+        You deserved patience, understanding, and respect —
+        not my reactions or my ego.
+      </p>
+
+      <p>
+        I am not writing this to justify myself.
+        I am writing this to accept my mistake.
+      </p>
+
+      <p>
+        Please know that your feelings matter to me.
+        I promise to listen better, understand deeper,
+        and treat you the way you deserve.
+      </p>
+
+      <p>
+        If you can find it in your heart to forgive me,
+        I will be grateful beyond words.
+      </p>
+
+      <p>
+        Always sincerely,<br>
+        <span>Aapka Gulaam</span> 🤍
+      </p>
+    </div>
+
+    <div class="footer">
+      I hope this reaches your heart 🌸
+    </div>
+  </div>
+</div>
+
+<script>
+function closePopup() {
+  document.getElementById('popup').style.display = 'none';
+}
+</script>
+
+</body>
+</html>
